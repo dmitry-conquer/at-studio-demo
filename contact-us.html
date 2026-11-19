@@ -95,7 +95,9 @@ section{padding:var(--pad-y) 0}
 /* ───────── Section head (heading + aside) ───────── */
 .section-head{display:grid;grid-template-columns:minmax(0,1101fr) minmax(0,499fr);gap:clamp(20px,3.3vw,64px);align-items:end;margin-bottom:var(--gap-section)}
 .section-head .aside{display:flex;flex-direction:column;gap:20px;align-items:flex-start}
-
+#nl-badge-frame {
+  display: none !important;
+}
 /* ───────── Header (Header/Theme=Overlay) ───────── */
 .site-header{position:absolute;top:16px;left:0;right:0;z-index:20}
 .site-header .bar{display:flex;align-items:center;justify-content:space-between;height:62px;padding:0 10px 0 18px;border-radius:var(--radius-lg);background:rgba(43,34,30,.38);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);color:var(--text-inverse)}
